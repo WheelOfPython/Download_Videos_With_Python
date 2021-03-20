@@ -23,7 +23,7 @@ Make a directory, in which you will put the python scripts and the chromedriver.
 The text files will be saved in the same directory.
 
 # Workflow
-**1st Step (Not always needed)**
+<ins>**1st Step (Not always needed)**</ins>
 
 If you have a page, where you click on links to go to a page containing the video, use GetLinks_Site.py to get the URLs of the those video pages.
 
@@ -34,12 +34,12 @@ Put the flag in .find_elements_by_xpath().
 After the text file is created, you'll have to manually check it, because some URLs might not contain videos and you'll have to delete them. 
 They usually appear in the first few lines and are easy to find.
 
-**2nd Step**
+<ins>**2nd Step**</ins>
 
 Use GetLinks_Video.py to get the URLs of the videos from their pages.<br /> 
 Do the same thing as before to find the link format and put it in .find_elements_by_xpath() of this script.
 
-**3rd Step**
+<ins>**3rd Step**</ins>
 
 Use Download_Videos.py to download the videos.
 Here, you can specify the location and the name of the video files.
