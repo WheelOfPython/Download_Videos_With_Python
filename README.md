@@ -1,4 +1,4 @@
-# Download_Videos_With_Python
+# Download Videos With Python
 It makes a text file with the URL addresses of the videos of a given page and downloads them !!!
 
 It works by opening a browser instance, scrolling down to catch everything and searches the HTML file for the video URLs. Then it closes the instance.
